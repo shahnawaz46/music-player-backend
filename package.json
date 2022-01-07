@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "dev": "nodemon index.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix music_player_client && npm run build --prefix music_player_client"
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
