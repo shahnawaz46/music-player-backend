@@ -1,0 +1,265 @@
+{
+    "country": "bollywood",
+    "songType": [
+        {
+            "type": "party-songs",
+            "song": [
+                {
+                    "song_name": "Genda Phool _ JacquelineFernandez_ Official Music 2020.mp3",
+                    "singer": "Badshah &  Payal Dev",
+                    "image": "Genda phool.jpeg"
+                },
+                {
+                    "song_name": "Bom Diggy Diggy _ Sonu Ke Titu Ki Sweety(MP3_160K).mp3",
+                    "singer": "Zack Knight & Jasmin Walia",
+                    "image": "Bom diggy dom.jpeg"
+                },
+                {
+                    "song_name": "Babli Badmaash Shootout At Wadala(MP3_160K).mp3",
+                    "singer": "Sunidhi Chauhan",
+                    "image": "Babli badmash hai.jpeg"
+                },
+                {
+                    "song_name": "Chaar Botal Vodka _ Ragini MMS 2(MP3_160K).mp3",
+                    "singer": "Yo Yo Honey Singh",
+                    "image": "Char botal vodka.jpeg"
+                },
+                {
+                    "song_name": "Char Baj Gaye- F.A.L.T.U (MP3_160K).mp3",
+                    "singer": "Hard kaur & Sachin Jigar",
+                    "image": "Char baj gaye lakin party abhi baki hai.jpeg"
+                },
+                {
+                    "song_name": "COKA _ Sukh-E Muzical Doctorz  DM(MP3_160K).mp3",
+                    "singer": "Sukh-E",
+                    "image": "coka sukh-e.jpg"
+                },
+                {
+                    "song_name": "Cute Munda-(Mr-Jatt.com).mp3",
+                    "singer": "Sharry Mann",
+                    "image": "cute munda.jpg"
+                },
+                {
+                    "song_name": "Con Calma (Official Video)(MP3_160K).mp3",
+                    "singer": "Dadday Yankee & Snow",
+                    "image": "con calma.jpg"
+                },
+                {
+                    "song_name": "Daru Badnaam - Param Singh & Kamal Kahlon (Mr-Punjab.Com).mp3",
+                    "singer": "Param Singh & Kamal Kahlon",
+                    "image": "Daru-Badnaam.jpg"
+                },
+                {
+                    "song_name": "Despacito.mp3",
+                    "singer": "Luis Fonsi & Daddy Yankee",
+                    "image": "Despacito.png"
+                },
+                {
+                    "song_name": "Dilliwaali Girlfriend - Yeh Jawaani Hai Deewani MP3_160K).mp3",
+                    "singer": "Arjit Singh & Sunidhi Chauhan",
+                    "image": "dilliwali girlfriend.jpg"
+                },
+                {
+                    "song_name": "DJ Snake - Taki Taki(MP3_160K).mp3",
+                    "singer": "Cardi B & Selena Gomez & Dj Snake & Ozuna",
+                    "image": "taki taki.jpg"
+                },
+                {
+                    "song_name": "Ek Do Teen (Baaghi 2) 320 Kbps.mp3",
+                    "singer": "Shreya Ghosal & Parry Gripp",
+                    "image": "ek do teen.jpg"
+                },
+                {
+                    "song_name": "Enrique Iglesias - Bailando (English Version)(MP3_160K).mp3",
+                    "singer": "Enrique Iglesias & Sean Paul & Descemer Bueno & Gente De Zona",
+                    "image": "bailandocover.jpg"
+                },
+                {
+                    "song_name": "Fashion - Guru Randhawa (DJJOhAL.Com).mp3",
+                    "singer": "Guru Randhawa",
+                    "image": "Fashion.jpg"
+                },
+                {
+                    "song_name": "Full Song_ Muqabla _ Street Dancer 3D(MP3_160K).mp3",
+                    "singer": "Parampara Thakur & Yash Narvekar",
+                    "image": "muqabla.jpg"
+                }
+            ]
+        },
+        {
+            "type": "motivational-songs",
+            "song": [
+                {
+                    "song_name": "Brothers Anthem.mp3",
+                    "singer": "Vishal Dadlani",
+                    "image": "brother anthem.jpg"
+                },
+                {
+                    "song_name": "BESABRIYAAN Song _M.S.DHONI-THE UNTOLD STORY(MP3_128K).mp3",
+                    "singer": "Arman Malik",
+                    "image": "besabriyaan.jpg"
+                },
+                {
+                    "song_name": "Chak De India Title Song(MP3_128K).mp3",
+                    "singer": "Sukhwinder Singh & Salim Merchant & Marianne D'Cruz",
+                    "image": "chak de india.jpg"
+                },
+                {
+                    "song_name": "_Jeete Hain Chal_  FULL SONG (Audio) (MP3_128K).mp3",
+                    "singer": "Kavita Seth",
+                    "image": "jeete hai chal.jpg"
+                },
+                {
+                    "song_name": "A.R. Rahman - Chale Chalo Best Lagaan(MP3_128K).mp3",
+                    "singer": "A.R. Rahman",
+                    "image": "chale chalo.jpg"
+                },
+                {
+                    "song_name": "Challa (Main Lad Jaana)(MP3_128K).mp3",
+                    "singer": "Rabbi Shergill",
+                    "image": "challa.jpg"
+                },
+                {
+                    "song_name": "Dangal - Title Track(MP3_128K).mp3",
+                    "singer": "Daler Menhni",
+                    "image": "dangal.jpg"
+                },
+                {
+                    "song_name": "Iqbal - Aashayein(MP3_128K).mp3",
+                    "singer": "Salim Merchant",
+                    "image": "ashayein.jpg"
+                },
+                {
+                    "song_name": "Kandhon Se Milte Hain Kandhe (MP3_128K).mp3",
+                    "singer": "Shanker Mahdevan & Sonu Nigam",
+                    "image": "kandho se mitle.jpg"
+                },
+                {
+                    "song_name": "Sultan Title Songr(MP3_128K).mp3",
+                    "singer": "Sukhwinder Singh & Shaadab Faridi",
+                    "image": "sultan.jpg"
+                },
+                {
+                    "song_name": "Zinda - Bhaag Milkha Bhaag(MP3_128K).mp3",
+                    "singer": "Siddharth Mahadevan & Shankar-Ehsaan-Loy",
+                    "image": "zinda.jpg"
+                },
+                {
+                    "song_name": "Give Me Some Sunshine - 3 Idiots (MP3_128K).mp3",
+                    "singer": "Suraj Jagan & Sharman Joshi",
+                    "image": "3_Idiots.jpg"
+                }
+            ]
+        },
+        {
+            "type": "romantic-songs",
+            "song": [
+                {
+                    "song_name": "Zindagi Kuch Toh Bata  Bajrangi Bhaijaan(MP3_128K).mp3",
+                    "singer": "Vishal Dadlani",
+                    "image": "Zindagi Kuch Toh Bata  Bajrangi Bhaijaan.jpg"
+                },
+                {
+                    "song_name": "O Saathi - Baaghi 2  190Kbps.mp3",
+                    "singer": "Atif Aslam",
+                    "image": "O Saathi.jpg"
+                },
+                {
+                    "song_name": "Phir Bhi Tumko Chahunga 190Kbps.mp3",
+                    "singer": "Arijit Singh",
+                    "image": "Phir Bhi Tumko Chahunga.jpg"
+                },
+                {
+                    "song_name": "Zaalima - Raees 190kbps.mp3",
+                    "singer": "Arijit Singh & Harshdeep Kaur",
+                    "image": "Zaalima.jpg"
+                },
+                {
+                    "song_name": "Badan Pe Sitare Lapete Huye (MP3_128K).mp3",
+                    "singer": "Mohammad Rafi",
+                    "image": "Badan Pe Sitare Lapete Huye.jpg"
+                },
+                {
+                    "song_name": "Roke Na Ruke Naina 190Kbps.mp3",
+                    "singer": "Arijit Singh",
+                    "image": "Roke Na Ruke Naina.jpg"
+                },
+                {
+                    "song_name": "Bheegi Si Bhaagi Si Full Song (MP3_128K).mp3",
+                    "singer": "Antara Mitra & Mohit Chauhan & Pritam Chakraborty",
+                    "image": "Bheegi Si Bhaagi Si.jpg"
+                },
+                {
+                    "song_name": "Chal Wahan Jaate Hain Full Song (MP3_128K).mp3",
+                    "singer": "Arjit Singh",
+                    "image": "Chal Wahan Jaate Hain.jpg"
+                },
+                {
+                    "song_name": "Dil Sambhal Ja Zara Phir Mohabbat (Murder 2) (MP3_128K).mp3",
+                    "singer": "Salim Bhat & Mohammad Irfan & Arijit Singh",
+                    "image": "Dil Sambhal Ja Zara Phir Mohabbat.jpg"
+                },
+                {
+                    "song_name": "Humnava Hamari Adhuri Kahani (MP3_128K).mp3",
+                    "singer": "Papon",
+                    "image": "Humnava Hamari Adhuri Kahani.jpg"
+                },
+                {
+                    "song_name": "PEHLI DAFA FULL SONG (MP3_128K).mp3",
+                    "singer": "Atif Aslam",
+                    "image": "PEHLI DAFA FULL SONG.jpg"
+                },
+                {
+                    "song_name": "Tu Hi Haqeeqat Audio Song (MP3_128K).mp3",
+                    "singer": "Javed Ali & Shadaan & Irshan Ashraf",
+                    "image": "Tu Hi Haqeeqat.jpg"
+                }
+            ]
+        },
+        {
+            "type": "qawwali",
+            "song": [
+                {
+                    "song_name": "Teri Rehmato Ka Dariya  Sare (MP3_160K).mp3",
+                    "singer": "Hamsar Hayat Nizami",
+                    "image": "Teri Rehmato Ka Dariya Sare.jpg"
+                },
+                {
+                    "song_name": "Mohammad na hote to kuch bhi na hota.mp3",
+                    "singer": "Chand Afzaal Qadri",
+                    "image": "mohammad na hote to kuch bhi na hota.jpg"
+                },
+                {
+                    "song_name": "ALI MOLA ALI DAM DAM _Qawwal (MP3_160K).mp3",
+                    "singer": "Sultan Ul QADRIA Qawwal",
+                    "image": "ALI MOLA ALI DAM DAM.jpg"
+                },
+                {
+                    "song_name": "Dil Pe Zakham Khate Hai by Nusrat Fateh Ali Khan (MP3_160K).mp3",
+                    "singer": "Nusrat Fateh Ali Khan",
+                    "image": "Dil Pe Zakham Khate Hai.jpg"
+                },
+                {
+                    "song_name": "Kali Kali Zulfon Ke Phande Na (MP3_160K).mp3",
+                    "singer": "Nusrat Fateh Ali Khan",
+                    "image": "Kali Kali Zulfon Ke Phande Na.jpg"
+                },
+                {
+                    "song_name": "Teri Yaad Ibadat Meri Full Qawwali (MP3_160K).mp3",
+                    "singer": "Nusrat Fateh Ali Khan",
+                    "image": "Teri Yaad Ibadat Meri Full.jpg"
+                },
+                {
+                    "song_name": "Tumhein Dillagi Bhool Jani Paray Gi  Qawwali (MP3_160K).mp3",
+                    "singer": "Nusrat Fateh Ali Khan",
+                    "image": "Tumhein Dillagi Bhool Jani Paray Gi  Qawwali.jpg"
+                },
+                {
+                    "song_name": "Ye Jo Halka Halka Qawwali (MP3_160K).mp3",
+                    "singer": "Nusrat Fateh Ali Khan",
+                    "image": "Ye Jo Halka Halka Qawwali.jpg"
+                }
+            ]
+        }
+    ]
+}
