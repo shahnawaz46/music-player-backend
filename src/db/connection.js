@@ -8,7 +8,7 @@ const password = process.env.DB_PASSWORD
 
 const connection = async () => {
     try {
-        await mongoose.connect(`mongodb+srv://${user}:${password}@music-app.f5jla.mongodb.net/music-palayer-detail?retryWrites=true&w=majority`, { useNewUrlParser: true, useUnifiedTopology: true })
+        await mongoose.connect(`mongodb+srv://${user}:${password}@music-app.f5jla.mongodb.net/music-player-detail?retryWrites=true&w=majority`, { useNewUrlParser: true, useUnifiedTopology: true })
         console.log('Database connected')
     } catch (error) {
         console.log(error)

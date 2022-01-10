@@ -5,7 +5,7 @@ const path = require("path");
 const dotenv = require("dotenv");
 
 const connection = require('./src/db/connection')
-const { signup, login } = require('./src/controller/UserRoutingMethod')
+const { signup, login, emailVerification } = require('./src/controller/UserRoutingMethod')
 
 
 const app = express()
@@ -36,6 +36,7 @@ app.post('/api/songs', async (req, res) => {
 
 app.post('/api/user/signup', signup)
 app.post('/api/user/login', login)
+app.post('/api/email/verification', emailVerification)
 
 
 const port = process.env.PORT || 9000
