@@ -1,4 +1,7 @@
-const nodemailer = require('nodemailer')
+const nodemailer = require('nodemailer');
+const dotenv = require('dotenv')
+
+dotenv.config()
 
 const generateMaiTemplate = (otp) => {
     return (`
@@ -77,8 +80,8 @@ let transporter = nodemailer.createTransport({
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-        user: "frowebformail@gmail.com",
-        pass: "frowebformail!@#$%^&*()",
+        user: process.env.USER,
+        pass: process.env.PASSWORD,
     },
 });
 
