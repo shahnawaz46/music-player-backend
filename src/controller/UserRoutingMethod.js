@@ -1,8 +1,9 @@
 const userCollection = require('../model/UserCollection');
 const bcrypt = require('bcrypt');
 const OtpCollection = require('../model/OtpCollection');
+const jwt = require("jsonwebtoken");
 
-const { sendOtpToEmail, afterEmailVerified } = require('../utils/SendingMail');
+const { sendOtpToEmail, afterEmailVerified, forgotPasswordOtp } = require('../utils/SendingMail');
 
 
 exports.signup = async (req, res) => {
@@ -26,16 +27,10 @@ exports.signup = async (req, res) => {
 
         // calling sendOtpToEmail() function to send email
         // import from utils
-        const isEmailSent = await sendOtpToEmail(user.email, otp)
-
-        if (isEmailSent === "false") {
-            throw "404"
-
-        }
-
+        sendOtpToEmail(user.email, otp)
 
     } catch (err) {
-        console.log("signup error", err)
+        // console.log("signup error", err)
         err === "404" ? res.status(404).json({ error: "Email not sent Please Check Again" }) :
             res.status(400).json({ error: "Something Gone Wrong Please Wait" })
     }
@@ -73,7 +68,7 @@ exports.emailVerification = async (req, res) => {
 
         const isOtpAvailable = await OtpCollection.findOne({ userId: _id })
         if (!isOtpAvailable) {
-            return res.status(404).json({ error: "No user found in our Database Please Signup Again" })
+            return res.status(404).json({ error: "OTP expired Please Signup Again" })
         }
 
         const isOtpMatch = await bcrypt.compare(otp, isOtpAvailable.otp)
@@ -88,8 +83,59 @@ exports.emailVerification = async (req, res) => {
 
         res.status(200).json({ message: "Gmail Verified Successfully", user: { name: isUserExist.name, email: isUserExist.email } })
 
-        await afterEmailVerified(isUserExist.email, "Gmail Verified Successfully", "Thanks for connecting with us")
+        afterEmailVerified(isUserExist.email, "Gmail Verified Successfully", "Thanks for connecting with us")
 
+
+    } catch (error) {
+        // console.log(error)
+        return res.status(400).json({ error: 'something wrong please try again' })
+    }
+}
+
+exports.forgotPassword = async (req, res) => {
+    const { email } = req.body
+    try {
+        const isEmailExist = await userCollection.findOne({ email })
+        if (!isEmailExist) {
+            return res.status(400).json({ error: "No Account Found Please Signup First" })
+        }
+
+        const forgotPasswordLink = jwt.sign({ _id: isEmailExist._id }, process.env.SECRET_KEY, { expiresIn: '10m' })
+
+        const userOtp = new OtpCollection({ userId: isEmailExist._id, forgotPasswordLink })
+        await userOtp.save()
+
+        res.status(200).json({ message: "Link sent to the gmail successfully" })
+
+        // calling forgotPasswordOtp() function to send email
+        // import from utils
+        forgotPasswordOtp(isEmailExist.email, forgotPasswordLink)
+
+    } catch (error) {
+        // console.log(error)
+        return res.status(400).json({ error: 'something wrong please try again' })
+    }
+}
+
+exports.resetPassword = async (req, res) => {
+    let { token, password } = req.body
+    let userId = null
+    try {
+        jwt.verify(token, process.env.SECRET_KEY, (error, verification) => {
+            if (error) {
+                return res.status(400).json({ error: "Link is expired please try again" })
+            }
+            userId = verification._id
+        })
+
+        password = await bcrypt.hash(password, 12)
+
+        await userCollection.findByIdAndUpdate({ _id: userId }, {
+            $set: { password }
+        })
+
+        await OtpCollection.findByIdAndDelete(userId)
+        return res.status(200).json({ message: "Password updated successfully" })
 
     } catch (error) {
         console.log(error)

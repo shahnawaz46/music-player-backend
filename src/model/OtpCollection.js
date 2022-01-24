@@ -9,7 +9,12 @@ const otpSchema = new mongoose.Schema({
     },
     otp: {
         type: String,
-        required: true,
+        default: null,
+        trim: true
+    },
+    forgotPasswordLink: {
+        type: String,
+        default: null,
         trim: true
     },
     createdAt: {
